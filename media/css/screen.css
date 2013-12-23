@@ -194,6 +194,9 @@ dl .meta {
 .listing-item a:hover {
     background: url(../images/a_bg.png);
 }
+.listing-item a:linked {
+    background: blue;
+}
 
 .listing-item time{color:#999999;}
 .listing-seperator{font-weight:bold;}

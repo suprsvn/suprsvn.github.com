@@ -193,7 +193,6 @@ dl .meta {
 }
 .listing-item a:visited {
     color: blue;
-    background: url(../images/a_bg.png);
 }
 .listing-item a:hover {
     background: url(../images/a_bg.png);

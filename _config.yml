@@ -1,0 +1,31 @@
+name: suprsvn
+url: http://0nly.me
+baseurl: 
+timezone: Asia/Shanghai
+encoding: utf-8
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["strikethrough", "tables", "fenced_code_blocks"]
+
+pygments: true
+permalink: pretty
+paginate: 5
+
+owner : 
+  name : suprsvn
+  github : ogaclejapan
+#  twitter :
+#  googleplus : 
+#  facebook : 
+
+# See http://schema.org/Article
+schema_article_type : Article
+
+google_analytics :
+  tracking_id : 'UA-45524276-1'
+
+#addthis:
+#  pub_id: 'ra-52b998c30d780542'
+
+exclude: ["README.md", "LICENSE", ".gitignore", "s3_website.yml", "images"]

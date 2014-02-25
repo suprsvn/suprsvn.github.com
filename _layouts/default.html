@@ -1,63 +1,79 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="{{ site.author }}" />
-    <meta name="keywords" content="coder,pythoner,phper,geeker,linuxer" />
-    <meta name="description" content="Shut up and code ..." />
-    <title>{{ page.title }} | {{ site.author }}</title>
-    <link rel="icon" href="../images/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="../images/favicon.ico" mce_href="/favicon.ico" type="image/x-icon">
-    <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-
-    <link rel="stylesheet" href="/media/css/highlight.css">
-    <link href='/media/webfonts/ss-social.css' rel='stylesheet'>
-    <link href='/media/webfonts/ss-standard.css' rel='stylesheet'>
-    <link href="/media/css/screen.css" rel="stylesheet">
-
-    <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
-  </head>
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="author" content="{{ site.author }}" />
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="user-scalable=no,width=device-width" />
+  <meta name="keywords" content="Coder, Linuxer, pythonic, PHPer" />
+  <meta name="copyright" content="Copyright 2008 to Present"/>
+  <link href="{{ site.url }}/feed" rel="alternate" title="suprsvn's RSS feed" type="application/rss+xml" />
+  <link href="http://0nly.me/" rel="home" />
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link type="text/css" rel="stylesheet" media="screen, projection" href="/css/screen.css" /> 
+  <link type="text/css" rel="stylesheet" media="all" href="/css/custom.css" />
+  <!--[if lt IE 8]>
+    <link type="text/css" rel="stylesheet" media="screen, projection" href="/css/ie.css" />
+  <![endif]--> 
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  {% include prettify.html %}
+  {% include google_analytics.html %}	
+</head>
   <body>
-    <div id="container">
-      <div id="main" role="main">
-        <header>
-        <div class="buttons">
-          <a href="/" class="ss-icon" title="Go to homepage">home</a>
-          <a href="/categories" class="ss-icon" title="Category" >list</a>
-          <a href="/tags" class="ss-icon" title="Tag Cloud" >tags</a>
-          <a href="/guestbook" class="ss-icon" title="Guest Book" >talk</a>
-          <a href="/about" class="ss-icon" title="About" >user</a>
-          <a href="/links" class="ss-icon" title="Links" >link</a>
-          <a href="/feed" class="ss-icon" title="Subscribe by RSS" >rss</a>
-        </div>
-        <h1>{{ page.title }}</h1>
-        </header>
-        <hr>
-        <article class="content">
+    <div class="container">
+      <header class="span-21 last" id="header">
+        <h1><a href="{{ site.url }}" rel="home bookmark">{{ site.title }}</a></h1>
+      </header>
+
+      <div class="span-16" id="content">
         {{ content }}
-        </article>
+      </div>
+      <div class="span-5 last" id="sidebar">
+        <div class="sidebarbox"> 
+          <h4>Pages</h4> 
+          <ul id="pages">
+	        <li>
+              <a rel="bookmark" title="Home" href="{{ site.url }}/">Home</a>
+            </li>
+            <li>
+              <a rel="bookmark" title="About" href="{{ site.url }}/about">About</a>
+            </li>
+            <li>
+              <a rel="bookmark" title="Archives" href="{{ site.url }}/archives" id="archives">Archives</a> 
+            </li>
+          </ul>
+        </div>
+        <div class="sidebarbox"> 
+          <h4>Subscribe</h4> 
+          <ul> 
+            <li> 
+              <a title="RSS Feed" href="{{ site.url }}/feed" class="icon-link" id="feed-link">RSS</a> 
+            </li> 
+          </ul> 
+        </div> 
+        
+        <div class="sidebarbox"> 
+          <h4>Contact Me</h4> 
+          <ul> 
+            <li> 
+              <a rel="bookmark" title="Email" href="mailto:suprsvn[at]gmail.com" class="icon-link" id="gmail-link">Gmail</a> 
+            </li>
+          </ul> 
+        </div> 
       </div>
 
-    <footer>
-        <p>
-        <small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> | Copyright 2012 - {{site.time | date:"%Y"}} by suprsvn | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S %Z"}}</span> | </small>
-
-        <script language="javascript" type="text/javascript" src="http://js.users.51.la/16434669.js"></script>
-<noscript><a href="http://www.51.la/?16434669" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/16434669.asp" style="border:none" /></a></noscript>
-
-        </p>
-    </footer>
-
+      <footer class="span-21 last" id="footer">
+        All content copyright &copy; suprsvn. Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository" rel="external" target="_blank">Jekyll</a>.<p>Proudly hosted by <a href="http://github.com" title="Github" rel="external" target="_blank">Github</a>.</p>
+      </footer>
     </div>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-45524276-1']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-  </script>
+
+    {% include disqus.html %}
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>

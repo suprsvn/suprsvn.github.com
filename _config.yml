@@ -1,6 +1,20 @@
+title: "suprsvn"
+url: "http://0nly.me"
+author: "suprsvn"
+email: "suprsvn@gmail.com"
+description: "Shut up and then make it."
+
+auto: false
+source: .
+paginate: 5
+paginate_files:
+ - index.html
+
+permalink: /:year/:month/:title
+
 markdown: rdiscount
-permalink: /:year/:month/:title/
-url: http://0nly.me
-author: suprsvn
 pygments: true
-paginate: 24
+
+exclude:
+  - README.markdown
+  - _drafts

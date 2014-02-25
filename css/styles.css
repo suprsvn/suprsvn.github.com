@@ -234,8 +234,7 @@ article ul.meta li {
 }
 article ul.meta li.pubdate { opacity: 0.5; }
 article .body { 
-	clear: left; 
-	font-color:#000000;
+	clear: left;
 }
 
 /* code highlighting */

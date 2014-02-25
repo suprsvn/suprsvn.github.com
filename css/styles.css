@@ -233,11 +233,9 @@ article ul.meta li {
   float: left;
 }
 article ul.meta li.pubdate { opacity: 0.5; }
-article .body { clear: left; }
-.ds-thread {
-	width:600px;
-	height:300px;
-	text-align:center;
+article .body { 
+	clear: left; 
+	font-color:#000000;
 }
 
 /* code highlighting */

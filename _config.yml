@@ -1,7 +1,0 @@
-permalink: pretty
-
-markdown: redcarpet
-redcarpet:
-  extensions: [smart]
-
-url: http://0nly.me

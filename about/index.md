@@ -17,6 +17,7 @@ Shut up and then make it.
 个人邮箱: [suprsvn@gmail.com](mailto:suprsvn@gmail.com)     
 新浪微博: [@菊花儿绽放](http://weibo.com/216481678)     
 腾讯微博: [@suprsvn](http://t.qq.com/suprsvn)     
-github : [suprsvn](https://github.com/suprsvn)        
+Google+: [+supr](https://plus.google.com/u/0/100847701096332465304)     
+Github : [suprsvn](https://github.com/suprsvn)        
 
 ----

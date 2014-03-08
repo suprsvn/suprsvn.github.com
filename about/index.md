@@ -21,3 +21,17 @@ Google+: [+supr](https://plus.google.com/u/0/100847701096332465304)
 Github : [suprsvn](https://github.com/suprsvn)        
 
 ----
+
+###欢迎到__GOOGLE+__上关注我和我的主页     
+<!-- Place this tag where you want the widget to render. -->
+<div class="g-page" data-width="250" data-href="//plus.google.com/u/0/103586697261491207350" data-rel="publisher"></div>
+
+<!-- Place this tag after the last widget tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+

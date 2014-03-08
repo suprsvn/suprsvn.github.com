@@ -10,7 +10,7 @@ comments: no
 我常说：     
 Shut up and then make it.     
 
-----
+---
 
 ###联系方式：        
 
@@ -20,9 +20,22 @@ Shut up and then make it.
 Google+: [+supr](https://plus.google.com/u/0/100847701096332465304)     
 Github : [suprsvn](https://github.com/suprsvn)        
 
-----
+---
 
-###欢迎到__GOOGLE+__上关注我和我的主页     
+###欢迎到__GOOGLE+__上关注__我__和__我的主页__     
+
+---
+<!-- Place this tag where you want the widget to render. -->
+<div class="g-person" data-width="250" data-href="//plus.google.com/u/0/100847701096332465304" data-rel="author"></div>
+
+<!-- Place this tag after the last widget tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
 <!-- Place this tag where you want the widget to render. -->
 <div class="g-page" data-width="250" data-href="//plus.google.com/u/0/103586697261491207350" data-rel="publisher"></div>
 
@@ -34,4 +47,3 @@ Github : [suprsvn](https://github.com/suprsvn)
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
-

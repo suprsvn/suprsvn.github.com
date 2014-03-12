@@ -38,18 +38,18 @@ del os, histfile, readline, rlcompleter
 
 ## 2. Put the file into your HOME directory.      
 
-    Linux: ~/.pythonstartup
-    Windows: C:\Users\USERNAME\.pythonstartup
+    Linux : ~/.pythonstartup
+    Windows : C:\Users\USERNAME\.pythonstartup
 
 ---
 
 ## 3. Set the Environment Variables.       
 
-In Windows:Just do it like this.
+__In Windows : Just do it like this.__
 
-![PYTHONSTARTUP](./images/PYTHONSTARTUP.png)
+![PYTHONSTARTUP](../images/PYTHONSTARTUP.png)
 
-In Linux:Put the line into the file named '.profile'.
+__In Linux : Put the line into the file named '.profile'.__
 
     export PYTHONSTARTUP=~/.pythonstartup     
 
@@ -57,7 +57,7 @@ In Linux:Put the line into the file named '.profile'.
 
 ## Previews:
 
-![python_idle_tab_completion.gif](./images/python_idle_tab_completion.gif)
+![python_idle_tab_completion.gif](../images/python_idle_tab_completion.gif)
 
 ---
 

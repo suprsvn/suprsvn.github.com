@@ -11,7 +11,7 @@ tags:
 
 ---
 
-## 1.Put the codes into a file named '.pythonstartup'.
+## 1. Put the codes into a file named '.pythonstartup'.
 
 {% highlight python %}
 
@@ -47,7 +47,7 @@ del os, histfile, readline, rlcompleter
 
 __In Windows : Just do it like this.__
 
-![PYTHONSTARTUP](../images/PYTHONSTARTUP.png)
+![PYTHONSTARTUP](http://0nly.me/images/PYTHONSTARTUP.png)
 
 __In Linux : Put the line into the file named '.profile'.__
 
@@ -57,7 +57,7 @@ __In Linux : Put the line into the file named '.profile'.__
 
 ## Previews:
 
-![python_idle_tab_completion.gif](../images/python_idle_tab_completion.gif)
+![python_idle_tab_completion.gif](http://0nly.me/images/python_idle_tab_completion.gif)
 
 ---
 

@@ -5,6 +5,7 @@ comments: no
 ---
 
 ![ME](http://0nly.me/me.png)
+<img src="http://0nly.me/me.png" align=left></img>
 
 ---
 

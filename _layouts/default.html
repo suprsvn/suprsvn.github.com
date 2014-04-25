@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html xmlns:wb="http://open.weibo.com/wb">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="{{ site.author }}" />
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="/media/css/style.css">
     <link rel="stylesheet" href="/media/css/highlight.css">
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <script type="text/javascript">
     function setTimeSpan(){
@@ -41,27 +43,6 @@
       <div id="main" role="main">
         <header>
         <h1>{{ page.title }}</h1>
-		<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone"></div>
-
-<!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script><!-- Place this tag where you want the share button to render. -->
-<div class="g-plus" data-action="share" data-annotation="bubble" data-height="24"></div>
-
-<!-- Place this tag after the last share tag. -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
         </header>
         <nav>
         <span><a title="home page" class="" href="/">Home</a></span>
@@ -71,9 +52,8 @@
         <span><a title="tags" class="" href="/tags/">Tags</a></span>
         <span><a title="links" class="" href="/links/">Links</a></span>
         <span><a title="subscribe by RSS" class="" href="/feed/">Subscribe</a></span>
-		<span><a href="https://plus.google.com/103586697261491207350" rel="publisher">Google+</a></span>
-		<span><iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2F0nly.me&amp;width&amp;layout=button_count&amp;action=recommend&amp;show_faces=false&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-</span>
+        <span><a title="WeiBo" href="http://weibo.com/suprsvn">WeiBo</a></span>
+        <span><wb:follow-button uid="5082883214" type="red_4" width="67" height="24" ></wb:follow-button></span>
         </nav>
         <article class="content">
         {{ content }}

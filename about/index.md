@@ -4,6 +4,10 @@ layout: page
 comments: no
 ---
 
+![ME](http://0nly.me/me.png)
+
+---
+
 ### 喜欢干净整洁的代码，讨厌喋喋不休的梦想。     
 
 ## Shut up and then make it.     

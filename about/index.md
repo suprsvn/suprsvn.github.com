@@ -3,10 +3,11 @@ title: About me
 layout: page
 comments: no
 ---
-
-![ME](http://0nly.me/me.png)
+<html>
+<body>
 <img src="http://0nly.me/me.png" align=left></img>
-
+</body>
+</html>
 ---
 
 ### 喜欢干净整洁的代码，讨厌喋喋不休的梦想。     

@@ -9,18 +9,20 @@ categories:
 
 ---
 
-### 我是在Ubuntu下，修改hosts文件后直接生效，考虑到平时用Google来提高效率，于是我将下面链接的hosts内容全部append到`/etc/hosts`中了。
+我是在Ubuntu下，修改hosts文件后直接生效，考虑到平时用Google来提高效率，于是我将下面链接的hosts内容全部append到`/etc/hosts`中了。
 
-### [hosts文件的开源链接](https://raw.githubusercontent.com/smarthosts/SmartHosts/master/trunk/hosts)
+[hosts文件的开源链接](https://raw.githubusercontent.com/smarthosts/SmartHosts/master/trunk/hosts)
 
-### 若你平时不用Google，只是SDK下载，那就只需将以下两项加入`/etc/hosts` 中即可。
+若你平时不用Google，只是SDK下载，那就只需将以下两项加入`/etc/hosts` 中即可。
 
 {% highlight python %}
 203.208.46.200	dl-ssl.google.com
 203.208.46.200	www.google.com
 {% endhighlight %}
 
-### 这里还有我备份的hosts文件，如果上面链接打不开，可以下载这个。 [备份hosts下载](http://0nly.me/contents/hosts)
+这里还有我备份的hosts文件，如果上面链接打不开，可以下载这个。 
+
+[备份hosts下载](http://0nly.me/contents/hosts)
 
 ---
 
